@@ -1,0 +1,20 @@
+# Core Project Dependencies
+python-dotenv
+pypdf
+python-docx
+sentence-transformers
+scikit-learn
+numpy>=1.26.0,<2.3.0  # Ensures compatibility with Python 3.9-3.12, and avoids 3.13 specific
+networkx
+
+# LangChain and Google Generative AI Integrations
+# These should pull in compatible google-generativeai and langchain-core versions automatically.
+# As of mid-2025, these versions are generally compatible with Python 3.9-3.12.
+langchain-google-genai>=2.1.5
+langchain-core>=0.3.65
+langgraph>=0.4.8
+
+
+# Web Backend
+flask
+flask-cors
